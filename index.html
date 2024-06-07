@@ -1,79 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ballecoffee</title>
-    <meta name="description" content="Explore dezenas de variação da bebida favorita entre os devs ao redor do mundo!">
-</head>
-<body>
-    <header>
-        <nav>
-            <span>ballecoffee</span>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Receitas</a></li>
-                <li><a>Novidades</a></li>
-                <li><a>Melhor avaliadas</a></li>
-            </ul>
-            <a>Github</a>
-        </nav>
-    </header>
-
-     <main>
-        <section>
-            <header>
-                <span>novidades</span>
-                <h1>Encontre a receita perfeita!</h1>
-                <hr/>
-                <h2>Explore dezenas de variação da bebida favorita entre os devs ao redor do mundo!</h2>
-            </header>
-            <div>
-                <figure><img src="imagens/23490969.jpg"></figure>
-                <figure><img src="imagens/Bolsonaro-cafe.png"></figure>
-                <figure><img src="imagens/cafe-arabica.png"></figure>
-                <figure><img src="imagens/cafe-pessegueiro.jpg"></figure>
-                <figure><img src="imagens/café com canela.jpg"></figure>
-                <figure><img src="imagens/café.jfif"></figure>
-                <figure><img src="imagens/café.jpg"></figure>
-                <figure><img src="imagens/cappuccino.jpg"></figure>
-                <figure><img src="imagens/materia-2-cafes-especiais.webp"></figure>
-                <figure><img src="imagens/melhores-cafes.jpg"></figure>
-                <figure><img src="imagens/viciado-em-cafe-1.webp"></figure>
-            </div>
-        </section>
-        <section>
-        <section>
-            <button>
-                <img width="50px" src="imagens/seta pra baixo.png">
-            </button>
-        </section>    
-        </section>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ballecoffee</title>
+        <meta name="description" content="Explore dezenas de variação da bebida favorita entre os devs ao redor do mundo!">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
         <header>
-            <span>receitas</span>
-            <h2>confira as últimas reiceitas </h2>
-            <p>Dê uma olhada nas receitas mais amadas!</p>
+            <nav>
+                <span class="logo">ballecoffee</span>
+                <ul class="menu">
+                    <li><a>Home</a></li>
+                    <li><a>Receitas</a></li>
+                    <li><a>Novidades</a></li>
+                    <li><a>Melhor avaliadas</a></li>
+                </ul>
+                <a class="github">Github</a>
+            </nav>
         </header>
-        <div>
-            <div>
-                <header>
-                <div>
-                    <span>em alta &#x1F525;</span>
-                    <h3>cappuccino</h3>
-                </div>
-                <p>Extraordinaário  .  4/4</p>
-                </header>
-                <p>Uma bebida ideal para os amantes de doce e cremosinho. &#x1F60D;</p>
-                <div>
-                    <img  width="50px"  src="imagens/Bolsonaro-cafe.png">
-                    <span>Rafaella ballnerini</span>
+
+        <main>
+            <div class="principal">
+                <section class="hero">
+                    <header class="hero-conteudo">
+                        <span class="destaque marrom">novidades</span>
+                        <h1>Encontre a receita perfeita!</h1>
+                        <hr/>
+                        <h2 class="hero-subtitulo">Explore dezenas de variação da bebida favorita entre os devs ao redor do mundo!</h2>
+                    </header>
+                    <div class="hero-imagens-container">
+                        <figure><img src="imagens/23490969.jpg"></figure>
+                        <figure><img src="imagens/Bolsonaro-cafe.png"></figure>
+                        <figure><img src="imagens/cafe-arabica.png"></figure>
+                        <figure><img src="imagens/cafe-pessegueiro.jpg"></figure>
+                        <figure><img src="imagens/café com canela.jpg"></figure>
+                        <figure><img src="imagens/café.jfif"></figure>
+                        <figure><img src="imagens/café.jpg"></figure>
+                        <figure><img src="imagens/cappuccino.jpg"></figure>
+                        <figure><img src="imagens/materia-2-cafes-especiais.webp"></figure>
+                        <figure><img src="imagens/melhores-cafes.jpg"></figure>
+                        <figure><img src="imagens/viciado-em-cafe-1.webp"></figure>
+                    </div>
+                </section>
+            </div>
+            <section class="butao-container">
+                <button type="button">
+                    <img style="width: 50px;" src="imagens/chevron-down-box-128.webp">
+                </button>  
+            </section>
+            </section class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque marrom">receitas</span>
+                <h2 class="receita-titulo">confira as últimas reiceitas </h2>
+                <p class="receita-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
+            </header>
+            <div class="receita-card-container">
+                <div class="receita-card">
+                    <header class="receita-card-cabecalho">
+                    <div class="receita-card-cabecalho-detalhes">
+                        <span class="destaque amarelo">em alta &#x1F525;</span>
+                        <h3 class="receita-titulo">cappuccino</h3>
+                    </div>
+                    <p class="receita-avaliacao">Extraordinaário  .  4/4</p>
+                    </header>
+                    <p class="receita-descriçao">Uma bebida ideal para os amantes de doce e cremosinho. &#x1F60D;</p>
+                    <div class="receita-autor">
+                        <img style="width: 10%;" src="imagens/0e8c1aec9058b4e02c0a5aefbd0368ab-silhueta-de-perfil-de-mulher-sexy.webp">
+                        <span class="receita-autor-nome">Rafaella ballnerini</span>
+                    </div>
                 </div>
             </div>
-        </div>
-     </main>
-    <footer>
-        <p>copyright &lt;CODEFEE /&gt; 2024</p>
-        <P>feito com muito amor e café por Rafaella ballnerini</P>
-    </footer>
-</body>
-</html>
+        </section>  
+        </main>
+        <footer>
+            <p class="footer-copy">copyright &lt;CODEFEE /&gt; 2024</p>
+            <P class="footer-autor">feito com muito amor e café por Rafaella ballnerini</P>
+        </footer>
+        </body>
+    </html>
